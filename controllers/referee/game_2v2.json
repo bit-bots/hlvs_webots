@@ -1,0 +1,32 @@
+{
+  "type": "NORMAL",
+  "kickoff": "red",
+  "class": "KID",
+  "host": "127.0.0.1",
+  "minimum_real_time_factor": 0,
+  "side_left": "blue",
+  "press_a_key_to_terminate": true,
+  "use_bouncing_server": false,
+  "red": {
+    "id": 7,
+    "config": "teams/bitbots_2.json",
+    "hosts": [
+      "127.0.0.1"
+    ],
+    "ports": [
+      10071,
+      10072
+    ]
+  },
+  "blue": {
+    "id": 8,
+    "config": "teams/bitbots_2.json",
+    "hosts": [
+      "127.0.0.1"
+    ],
+    "ports": [
+      10081,
+      10082
+    ]
+  }
+}
